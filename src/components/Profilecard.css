@@ -1,0 +1,82 @@
+.card-container {
+	background-color: white;
+	min-width: 350px;
+	max-width: 600px;
+	height: auto;
+	border-radius: 14px;
+	box-shadow: 0px 10px 30px hsl(185, 75%, 35%);
+}
+
+header {
+	background-image: url("../images/bg-pattern-card.svg");
+	background-position: 0px 0px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	text-align: center;
+	border-top-left-radius: 14px;
+	border-top-right-radius: 14px;
+}
+
+img {
+	margin: auto;
+	width: 100px;
+	border: solid white 4px;
+	border-radius: 50%;
+	margin-top: 75px;
+}
+
+.bold-text {
+	font-weight: bold;
+	font-size: 1.1rem;
+	text-align: center;
+	
+}
+
+.normal-text {
+	font-weight:500;
+	font-size: 1.1rem;
+	color: hsl(0, 0%, 50%);
+	text-align: center;
+	
+}
+
+/* SOCIAL STATS */
+.smaller-text {
+	font-weight: normal;
+	font-size: 0.7rem;
+	color: hsl(0, 0%, 50%);
+	text-align: center;
+	letter-spacing: 1px;
+	padding-bottom: 20px;
+	line-height: 5px;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+	padding: 0px 20px;
+}
+.input-wrapper{
+	display: flex;
+	flex-direction: column;
+    justify-content: center;
+    align-items: center;
+	gap: 10px;
+	padding: 10px;
+	color: #2e7d32;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input{
+	height: 1.5rem;
+	width: 200px;
+	padding: 10px;
+	border: 2px solid #2e7d32;
+	border-radius: 5px;
+
+}
